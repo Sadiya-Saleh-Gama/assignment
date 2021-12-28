@@ -1,0 +1,290 @@
+/* ------------------------------------HEADER SECTION STYLE ----------------------------------------- */
+.header{
+	background-color:green;
+	height:100px;
+	font-family:georgia;
+	color:#fff;
+	text-align:center;
+	font-size:50px;
+	font-weight:bolder;
+	margin-left:-8px;
+	margin-right:-8px;
+	padding:10px;
+	margin-top:-10px;
+	
+}
+#span{
+	font-size:25px;
+	font-family:garamond;
+	color:#eee;
+	font-style:italic;
+}
+
+
+
+/* ------------------------------------MENU SECTION STYLES ----------------------------------------- */
+.menu{
+	background-color:white;
+	color:green;
+	margin-left: 50px;
+	margin-right:150px;
+	margin-top:2px;
+	height:40px;
+	width:1000px;
+	}
+	
+	ul#list{
+	list-style-type:none;
+}
+ul#list a {
+	text-decoration:none;
+	color:green;;
+	float:left;
+	display:block;
+	padding:0px 40px 5px;
+	font-size: 20px;
+	font-family:verdana;
+	/*background-color:whitesmoke;*/
+	border-radius:20px;
+}
+ul#list a:link{
+	color:green;
+	}
+	
+	ul#list a:hover{
+		text-shadow:1px 1px 15px gray;
+		color:green;
+		font-size:23px;
+	}
+	
+	/* ------------------------------------CONTENT SECTION STYLES ----------------------------------------- */
+.content{
+	font-family:georgia;
+	border:3px solid green;
+	margin:20px 20px 20px;
+	min-height:1050px;
+	border-radius:2%;
+}
+/* ------------------------------------CONTENT SECTION DIVSION 1 ----------------------------------------- */
+.content_div1{
+	/*border:2px dashed green;*/
+	min-height:600px;
+	margin:5px 10px 0px;
+	background-color:white;
+	float:left;
+	width:60%;
+	text-align:justify;
+}
+/* ------------------------------------CONTENT SECTION DIVSION 2 ----------------------------------------- */
+.content_div2{
+	/*border:2px dotted red;*/
+	min-height:600px;
+	float:right;
+	width:35%;
+	margin:5px 10px 0px;
+	text-align:justify;
+}
+/* ------------------------------------CONTENT SECTION DIVSION 3 ----------------------------------------- */
+.content_div3{
+	float:left;
+	width:60%;
+	min-height:330px;
+	margin:10px;
+	/*border:2px dotted green;*/
+	text-align:justify;
+}
+/* ------------------------------------ BUTTONS ON CONTENT SECTION DIVSION 3 ----------------------------------------- */
+.download {
+	background-color:whitesmoke;
+	font-family:kristen itc;
+	font-size:23px;
+	color:green;
+	display:inline-block;
+	border-radius:25px;
+	height:50px;
+	width:200px;
+	cursor:pointer;
+	margin-right:70px;
+	margin-left:70px;
+	border:1px solid white;
+}
+/* ------------------------------------CONTENT SECTION DIVSION 4 ----------------------------------------- */
+.content_div4{
+	float:right;
+	width:36%;
+	min-height:290px;
+	margin:10px;
+	/*border:2px dotted green;*/
+	font-family:garamond;
+}
+/* ------------------------------------GENERAL CONTENT STYLES----------------------------------------- */
+/* ----------ALL HEADINGS IN CONTENT-------------------------- */
+.headings{
+	font-family:kristen itc;
+	text-align:center;
+	font-size:25px;
+	color:green;
+}
+/* ----------ALL HEADINGS IN CONTENT WHEN HOVER-------------------------- */
+h1:hover{
+	text-shadow: 2px 2px 17px gray;
+	cursor:pointer;
+}
+/* ----------IMAGE ON THE TOP RIGHT DIVISION OF CONTENT-------------------------- */
+.image{
+	float:right;
+	width:500px;
+	height: 250px;
+	padding:10px 50px 10px;
+	border-radius:10%;
+}
+/* ----------IMAGE ON THE TOP LEFT DIVISION OF CONTENT-------------------------- */
+.image_left{
+	float:right;
+	width:250px;
+	padding:10px 20px 10px 20px;
+	border-radius:25%;
+	height:150px;
+	
+}
+/* ----------IMAGE ON THE BOTTOM LEFT DIVISION OF CONTENT-------------------------- */
+/* ---THE FIRST ON THE  SECTION ----------- */
+.image_left2{
+	float:right;
+	width:250px;
+	padding:0px 0px 10px 20px;
+	height:80px;
+}
+/* ---THE SECOND ON THE  SECTION ----------- */
+.image_left3{
+	float:left;
+	width:250px;
+	padding:50px 0px 10px;
+	height:107px;
+	padding-right:10px;
+}
+/* ----------ALL IMAGES WHEN HOVER-------------------------- */
+img:hover{
+	opacity:0.9;
+	cursor:pointer;
+}
+/* ----------WORDS ON THE RIGHT SIDE OF SECOND IMAGE AT THE BOTTOM LEFT SECTION -------------------------- */
+#diff{
+	padding:30px 10px 10px;
+    padding-left:10px;
+	}
+	/* ------------------------------------THE COMMENT DIVISION ----------------------------------------- */
+	.div1comment{
+	padding:10px;
+	margin:10px;
+}
+	/* ------------------------------------IMAGE ON THE BOTTOM LEFT / COMMENT  SECTION ----------------------------------------- */
+		.comment_right_img {
+		height:50px;
+		width:50px;
+		border-radius:50%;
+		/*box-shadow: 2px 2px 17px gray;*/
+		float:left;
+		padding-right:10px;
+		/*margin-top:20px;*/
+		}
+		/* ------------------------------------TEXTS ON THE BOTTOM LEFT / COMMENT  SECTION ----------------------------------------- */
+		.comment_right {
+	text-align:justify;
+	float:right;
+	font-family:garamond;
+	font-size:20px;
+	/*margin-bottom:20px;*/
+}
+/* ------------------------------------THE NAME OF THE PERSON WHO COMMENT  STYLES ----------------------------------------- */
+
+.span_comment {
+	font-family:kristen itc;
+	font-size:15px;
+	font-style:italic;
+	font-weight:bold;
+	/*margin-top:20px;*/
+}
+/* ------------------------------------THE COMMENT TEXTS ----------------------------------------- */
+.break{
+	/*margin-bottom:50px;*/
+	float:right;
+	display:inline;
+}
+/* ------------------------------------THE COMMENT BUTTONS ----------------------------------------- */
+/* --------ADD BUTTON AND VIEW MORE---------------- */
+.comment_input_add{
+	background-color:whitesmoke;
+	color:green;
+	font-family:kristen itc;
+	font-size:23px;
+	width:180px;
+	margin-top:10px;
+	margin-left:40px;
+	/*margin-right:20px;*/
+	height:40px;
+	border-radius:20px;
+	display:inline-block;
+	cursor:pointer;	
+	border:1px solid white;
+}
+/* -----------
+-------------------------FOOTER SECTION STYLES ----------------------------------------- */
+.footer {
+	background-color:#222;
+	min-height:150px;
+	margin-left:-8px;
+	margin-right:-8px;
+	}
+/* ------------------------------------FOOTER LIST/CONTENT STYLES ----------------------------------------- */
+.footer_list{
+	font-family:arial;
+	
+	display:inline-block;
+	margin-right:150px;
+	margin-left:20px;
+	color:#ddd;
+	list-style-type:none;
+	margin-top:10px;
+}
+li{
+	margin-top:10px;
+}
+
+/** STAND BY
+.comment_input{
+	font-family:arial;
+	font-style:italic;
+	font-variant:small-caps;
+	float:right;
+	border-radius:10%;
+	width:350px;
+}
+*/
+
+.mySlides {display: none;}
+.mySlides2 {display:none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+  
+  @keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
