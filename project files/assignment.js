@@ -1,9 +1,8 @@
 var slideIndex = 0;
-showSlides();
 
 function showSlides() {
   var i;
-
+  setTimeout(showSlides, 5000);
   var slides = document.getElementsByClassName("mySlides");
   var slide2 = document.getElementsByClassName("mySlides2");
   var slide3 = document.getElementsByClassName("mySlides3");
@@ -30,5 +29,5 @@ function showSlides() {
   slide3[slideIndex-1].style.display = "block";
   slide4[slideIndex-1].style.display = "block";
     
-  setTimeout(showSlides, 5000);
 }
+window.addEventListener('load', showSlides);
